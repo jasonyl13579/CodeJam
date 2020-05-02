@@ -10,7 +10,7 @@ for i in range(1, 1001):
     for j in range(1, 1001):
         pascal[i][j] =  pascal[i-1][j] + pascal[i-1][j-1]
     #if i < 10:
-        print (pascal[i][0:10])
+    #    print (pascal[i][0:10])
 
 def dfs(n, path):
     (x, y) = path[-1]
